@@ -34,7 +34,7 @@ function multiplosDehasta (n, m){
      for (i=1; multiplo < m; i++) {
          console.log(i, "", multiplo);
 
-         /*multiplos = " " + n*i;*/
+ /*multiplos = " " + n*i;*/
          multiplo = n*i;
          mensaje = mensaje + multiplo + " ";
 
@@ -48,4 +48,14 @@ function factorial(nf) {
     }
 
     return factorial;
+}
+
+function sumar(s1, s2) {
+    var suma = s1 + s2;
+    return sumar;
+}
+
+function multiplicar(f1, f2 ) {
+    var producto = f1 * f2;
+    return producto;
 }
